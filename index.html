@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                ConsultCo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link px-3" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link px-3" href="#">Industries</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link px-3" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link px-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Support</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item active">About us</li>
+                        </ol>
+                    </nav>
+                    <h3 class="display-4 fw-semibold mb-4">About 8Veer</h3>
+                    <div class="hero-text">
+                        <p class="lead mb-4">We deliver expert consulting solutions to drive business transformation and growth. Our tailored strategies and insights help organizations overcome challenges and achieve lasting success.</p>
+                        <a href="#" class="cta-button">See our services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="/api/placeholder/600/400" alt="Consulting services" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pe-lg-5">
+                    <h2 class="values-heading">Our values</h2>
+                    <p class="values-description">We value integrity, innovation, and client focus, delivering ethical, creative, and personalized solutions.</p>
+                    
+                    <div class="accordion custom-accordion" id="valuesAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#integrity">
+                                    Integrity and transparency
+                                </button>
+                            </h3>
+                            <div id="integrity" class="accordion-collapse collapse show" data-bs-parent="#valuesAccordion">
+                                <div class="accordion-body">
+                                    We maintain the highest standards of honesty and transparency in all our dealings, ensuring trust-based relationships with our clients and partners.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#innovation">
+                                    Innovation and excellence
+                                </button>
+                            </h3>
+                            <div id="innovation" class="accordion-collapse collapse" data-bs-parent="#valuesAccordion">
+                                <div class="accordion-body">
+                                    We continuously push boundaries to deliver innovative solutions while maintaining exceptional quality standards in everything we do.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#clientCentric">
+                                    Client-centric approach
+                                </button>
+                            </h3>
+                            <div id="clientCentric" class="accordion-collapse collapse" data-bs-parent="#valuesAccordion">
+                                <div class="accordion-body">
+                                    Our clients' success is our priority. We tailor our solutions to meet their unique needs and exceed their expectations.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collaboration">
+                                    Collaboration and teamwork
+                                </button>
+                            </h3>
+                            <div id="collaboration" class="accordion-collapse collapse" data-bs-parent="#valuesAccordion">
+                                <div class="accordion-body">
+                                    We believe in the power of collective expertise and foster a collaborative environment to achieve optimal results.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sustainability">
+                                    Commitment to sustainability
+                                </button>
+                            </h3>
+                            <div id="sustainability" class="accordion-collapse collapse" data-bs-parent="#valuesAccordion">
+                                <div class="accordion-body">
+                                    We integrate sustainable practices in our operations and help clients achieve their environmental and social responsibility goals.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="illustration">
+                        <div class="floating-element"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="leadership-section">
+                <div class="text-center mb-5">
+                    <h1 class="display-4 mb-3 fw-semibold">Our leadership</h1>
+                    <p class="lead text-muted fw-semibold">
+                        8veer's leaders are steering our company through transformative
+                        change, driving innovation and shaping the future of business
+                        consulting with visionary strategies and insights.
+                    </p>
+                </div>
+    
+                <div id="leadershipCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-image">
+                                <img src="/api/placeholder/400/400" class="d-block w-100" alt="Leadership Illustration">
+                            </div>
+                            <h5 class="leader-title">
+                                Amin Ordikhani, Founder, Chairman and Chief<br>
+                                Executive Officer
+                            </h5>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="/api/placeholder/400/400" class="d-block w-100" alt="Leadership Illustration">
+                            </div>
+                            <h4 class="leader-title">
+                                David Chen, Co-Founder and Chief<br>
+                                Technology Officer
+                            </h4>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="/api/placeholder/400/400" class="d-block w-100" alt="Leadership Illustration">
+                            </div>
+                            <h4 class="leader-title">
+                                Sarah Miller, Chief Operating<br>
+                                Officer
+                            </h4>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#leadershipCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#leadershipCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+    <div class="container-fluid">
+        <div class="history-section">
+            <h1 class="section-title">Our history</h1>
+
+            <div class="main-content-wrapper">
+                <div class="carousel-container">
+                    <button class="nav-button prev" data-bs-target="#historyCarousel" data-bs-slide="prev">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                    </button>
+
+                    <div id="historyCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7">
+                                        <div class="carousel-image">
+                                            <img src="/api/placeholder/700/400" alt="History Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="carousel-content">
+                                            <h2 class="content-title">Milestones and Growth</h2>
+                                            <p class="content-text">8veer's history is a testament to our growth and dedication. Founded with a vision to deliver exceptional consulting services, we have evolved by embracing innovation and responding to client needs, establishing ourselves as a trusted partner in business transformation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional carousel items here -->
+                        </div>
+                    </div>
+
+                    <button class="nav-button next" data-bs-target="#historyCarousel" data-bs-slide="next">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="timeline-point" data-year="2008">
+                            <div class="timeline-year">2008</div>
+                        </div>
+                        <div class="timeline-point" data-year="2010">
+                            <div class="timeline-year">2010</div>
+                        </div>
+                        <div class="timeline-point" data-year="2012">
+                            <div class="timeline-year">2012</div>
+                        </div>
+                        <div class="timeline-point" data-year="2014">
+                            <div class="timeline-year">2014</div>
+                        </div>
+                        <div class="timeline-point active" data-year="2016">
+                            <div class="timeline-year">2016</div>
+                        </div>
+                        <div class="timeline-point" data-year="2018">
+                            <div class="timeline-year">2018</div>
+                        </div>
+                        <div class="timeline-point" data-year="2020">
+                            <div class="timeline-year">2020</div>
+                        </div>
+                        <div class="timeline-point" data-year="2022">
+                            <div class="timeline-year">2022</div>
+                        </div>
+                        <div class="timeline-point" data-year="2024">
+                            <div class="timeline-year">2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.timeline-point').forEach(point => {
+            point.addEventListener('click', () => {
+                document.querySelectorAll('.timeline-point').forEach(p => p.classList.remove('active'));
+                point.classList.add('active');
+                // Add logic to update carousel content based on year
+            });
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
